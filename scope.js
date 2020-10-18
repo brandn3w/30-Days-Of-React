@@ -64,15 +64,12 @@ const users = {
   }
 }
 
+let topUser;
+for (let user in users) {
+    if (!topUser || users[user].skills.length > users[topUser].skills.length)
+     topUser = user;
+}
+
+console.log(topUser);
 
 
-let AlexSkills= Object.values(users.Alex.skills)
-console.log(AlexSkills)
-
-// let mostSkills = new Map();
-// for(var i in users)
-// {
-   
-//     mostSkill[]
-
-// }

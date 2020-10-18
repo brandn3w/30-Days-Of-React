@@ -48,3 +48,4 @@ const changeToUpper =(arr)=>{
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 console.log(changeToUpper(countries))
+
