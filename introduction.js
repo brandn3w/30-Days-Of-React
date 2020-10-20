@@ -42,5 +42,4 @@ products.forEach(product =>{
 // console.log(sum)
 // console.log(sumPrice)
 
-//Create an array of prices using map and store it in a variable prices
 
